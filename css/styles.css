@@ -1,0 +1,9 @@
+#result-wrapper {
+  display: none;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#result {
+  font-size: 22px;
+}

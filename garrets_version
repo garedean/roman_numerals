@@ -1,0 +1,38 @@
+
+//   //Iterate through each char of romanNumber
+//   for(var i = 0;  i < romanNumber.length; i++) {
+//
+//     // If there are four of the same chars in a row
+//     if (romanNumber[i] == romanNumber[i - 1] &&
+//         (romanNumber[i - 1] == romanNumber[i - 2]) &&
+//         (romanNumber[i - 2] == romanNumber[i - 3])) {
+//
+//           // Get repeating section
+//           var repeatingSection = romanNumber[i].repeat(4);
+//
+//           // Calculate repeating section value
+//           var repeatingSectionVal = decimal[(roman.indexOf(romanNumber[i]))];
+//
+//           // Remove repeating section
+//           romanNumber = romanNumber.replace(repeatingSection, "");
+//
+//           var convertedRoman = "";
+//           var currentTotal = 0;
+//           var targetTotal = repeatingSectionVal;
+//
+//           while(currentTotal === targetTotal) {
+//             // Create roman numeral using subtractive form
+//             for(var i =  0; i < decimal.length; i++) {
+//
+//               // Find base decimal
+//               if(repeatingSectionVal < decimal[i] && repeatingSectionVal > decimal[i + 1]) {
+//                 convertedRoman + roman[i];
+//               }
+//
+//               //return convertedRoman.reverse();
+//             }
+//           }
+//         }
+//   }
+// i deleted a bracket here because it was throwing off the spec runner
+//
